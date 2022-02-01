@@ -396,8 +396,7 @@ body{
         width: 2em;
         height: 45px;
         z-index: 5;
-      }
-    
+    }
     .hamburger div {
         position: relative;
         width: 2em;
@@ -466,7 +465,6 @@ body{
         transform: rotate(45deg);
         margin-top: -7px;
     }
-    
     #toggle:checked + .hamburger + .nav {
         top: 0;
         transform: scale(1);
@@ -494,7 +492,7 @@ body{
     }
     .hero-container-phone{
         margin: auto;
-       margin-top: -50%;
+        margin-top: -50%;
     }
     #purple-circle{
         filter: blur(100px);
@@ -563,7 +561,7 @@ body{
         line-height: 32px;
     }
     .testimonial{
-        height: 1245px;
+        height: 1220px;
         margin-top: -100px;
     }
     .testimonial-container{
@@ -573,6 +571,8 @@ body{
     .testimonial-heading{
         width: 688px;
         height: 81px;
+        margin-left: -77px;
+        margin-top: 10px;
     }
     .testimonial-heading-title{
         font-size: 36px;
@@ -582,29 +582,177 @@ body{
         width: 624px;
         height: 156px;
     }
-    .testimonial-item1{
-        width: 688px;
-        height: 284px;
-        top: 150px;
-        right: 0px;
-        margin-top: 40px;
-    }
     .testimonial-item2{
         width: 688px;
         height: 284px;
-        top: 434px;
-        left: 36px;
+        top: 130px;
+        left: 16px;
+        margin-top: 40px;
+    }
+    .testimonial-item1{
+        width: 688px;
+        height: 284px;
+        top: 414px;
+        left: 16px;
         margin-top: 68px;
     }
     .testimonial-item3{
         width: 688px;
         height: 284px;
-        top: 718px;
-        left: 36px;
+        top: 700px;
+        left: 16px;
         margin-top: 96px;
     }
     .footer{
         height: 288px;
+    }
+}
+@media(max-width:376px) {
+    .hero{
+        width: 375px;
+        height: 1240px;
+    }
+    .navbar{
+        width: 90%;
+        height: 72px;
+    }
+    .right-nav img{
+        display: none;
+    }
+    .hero-container{
+        width: 90%;
+        height: 1146px;
+        margin-top: -20px;
+        margin-left: 15px;
+    }
+    .hero-container-content{
+        width: 335px;
+        height: 386px;
+    }
+    .hero-container-content-title{
+        font-size: 36px;
+        line-height: 45px;
+    }
+    .hero-container-phone{
+        width: 335px;
+        height: 640px;
+        margin-left: -70px;
+        margin-top: -15px;
+    }
+    .logo-clouds{
+        width: 375px;
+        height: 228px;
+    }
+    .logo-clouds-container{
+        width: 90%;
+        height: 196px;
+    }
+    .logo-clouds-logos{
+        width: 100%;
+        height: 146px;
+    }
+    .logos-marka{
+        margin-right: 5px;
+        margin-left: 44px;
+    }
+    .aa{
+        margin-left: 50px;
+        margin-right: 10px;
+    }
+    .features{
+        width: 375px;
+        height: 1602px;
+    }
+    .features-heading{
+        height: 210px;
+        width: 90%;
+        top: 2%;
+    }
+    .features-container{
+        width: 85%;
+        height: 1248px;
+        margin-top: 0px;
+    }
+    .row{
+        width: 100%;
+        height: 168px;
+        flex-direction: row-reverse;
+    }
+    .column{
+       width: 90%;
+       height: 168px;
+       margin: auto;
+       margin-bottom: 180px;
+       margin-top: 60px;
+    }
+    .column-title{
+        align-items: center;
+        display: flex;
+    }
+    .column-text{
+        margin-left: 40px;
+    }
+    .testimonial{
+        width: 375px;
+        height: 1444px;
+    }
+    .testimonial-container{
+        width: 90%;
+        height: 1124px;
+    }
+    .testimonial-heading{
+        width: 100%;
+        height: 112px;
+    }
+    .testimonial-content{
+        width: 80%;
+    }
+    .testimonial-heading-title{
+        font-size: 30px;
+        line-height: 40px;
+        margin-top: -15px;
+    }
+    .testimonial-heading-text{
+        width: 239px;
+        height: 168px;
+    }
+    .testimonial-item1{
+        width: 100%;
+        height: 368px;
+        top: 542px;
+        margin-left: -16px;
+        margin-top: 32px;
+    }
+    .testimonial-item2{
+        width: 100%;
+        height: 368px;
+        margin-left: -16px;
+        margin-top: 52px;
+    }
+    .testimonial-item3{
+        width: 100%;
+        height: 368px;
+        margin-left: -16px;
+        top: 869px;
+    }
+    .footer{
+        width: 375px;
+        height: 448px;
+    }
+    .footer-container{
+        width: 90%;
+        height: 368px;
+        flex-wrap: wrap;
+    }
+    .phone-row1{
+        flex-wrap: wrap;
+    }
+    .left-footer{
+        width: 290px;
+        flex-wrap: wrap;
+    }
+    .footer-text2{
+        margin-top: 30px;
     }
 }
     
